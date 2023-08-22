@@ -5,7 +5,7 @@ public class MissingArray {
         int sumOfNaturalNumbers = n*(n+1)/2;
         int sumOfArray=0;
         int missNumberInArray=0;
-
+    
         for(int i: arr)
             sumOfArray+=i;
         
