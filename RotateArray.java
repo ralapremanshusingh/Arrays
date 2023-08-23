@@ -29,7 +29,7 @@ public class RotateArray {
                         {7,8,9}
                     };
 
-        transpose(arr);
+        transpose(arr); 
         reverse(arr);
         System.out.println("After Rotating Arrary : ");
         for(int[] i: arr) {
