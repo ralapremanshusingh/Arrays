@@ -1,4 +1,5 @@
-package TwoSum;
+package Array.TwoSum;
+
 class Solution {
     static int arr[] = {1,4,5,6};
     static int target =7;
