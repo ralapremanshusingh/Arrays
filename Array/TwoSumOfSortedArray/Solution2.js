@@ -15,7 +15,7 @@ let twoSum = function(nums,target) {
 }
 
 let numbers = [1,2,32,45,65]
-targ = 77
-
+let targ = 77
+ 
 console.log(twoSum(numbers,targ));
 
