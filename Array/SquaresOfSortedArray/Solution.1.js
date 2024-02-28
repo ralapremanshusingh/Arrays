@@ -1,3 +1,5 @@
+// 977. Squares of a Sorted Array => https://leetcode.com/problems/squares-of-a-sorted-array/description/
+
 const sorted = function (arr) {
     for (let i = 0; i < arr.length; i++) {
         arr[i] = arr[i] ** 2
