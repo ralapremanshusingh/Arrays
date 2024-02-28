@@ -9,9 +9,9 @@ public class Solution2 {
         for(int a=0; a<n; a++) {
             for(int b=a+1; b<n; b++) {
                 for(int c=b+1; c<n; c++) {
-                    // if(nums[a]+nums[b]+nums[c]==0) {
+                    if(nums[a]+nums[b]+nums[c]==0) {
                         System.out.println(nums[a] + " " + nums[b] + " " + nums[c]);
-                    // }
+                    }
                 }
             }
         }        
