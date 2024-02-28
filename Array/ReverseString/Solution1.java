@@ -1,7 +1,8 @@
 /* 
 *   344. Reverse String => https://leetcode.com/problems/reverse-string/description/ 
 */
-package Array.Reverse;
+
+package Array.ReverseString;
 
 public class Solution1 {
     
