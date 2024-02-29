@@ -5,5 +5,6 @@
 <!-- 15. 3Sum => https://leetcode.com/problems/3sum/description/ -->
 <!-- 1. Two Sum => https://leetcode.com/problems/two-sum/description/ -->
 <!-- 167. Two Sum II - Input Array Is Sorted => https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ -->
+<!-- 242. Valid Anagram => https://leetcode.com/problems/valid-anagram/description/ -->
 
 <!-- Array -->
