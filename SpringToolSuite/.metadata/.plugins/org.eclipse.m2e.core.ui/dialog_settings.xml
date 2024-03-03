@@ -28,10 +28,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="edu.rala.DemoHib1"/>
 		</list>
 		<list key="groupId">
+			<item value="edu.rala"/>
 		</list>
 		<list key="artifactId">
+			<item value="DemoHib1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -47,12 +50,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="edu.rala"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="hibernate2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
