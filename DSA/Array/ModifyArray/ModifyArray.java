@@ -17,15 +17,17 @@ public class ModifyArray {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        System.out.println("\n");
         return arr;
 
     }
 
     public static void printArray(int[] arr) {
 
-        System.out.println("Your Element is : ");
+        System.out.print("Your Element is : ");
         for(int i : arr) {
             System.out.print(i + " ");
         }
+        System.out.println("\n");
     }
 }
