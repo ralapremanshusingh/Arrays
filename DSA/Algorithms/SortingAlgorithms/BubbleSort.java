@@ -26,7 +26,7 @@ public class BubbleSort {
 	
 		int n = element.length;
 
-		for(int j =0; j<n; j++) {
+		for(int j =0; j<n-1; j++) {
 
 			for(int i = 0; i<n-j-1; i++) {
 
