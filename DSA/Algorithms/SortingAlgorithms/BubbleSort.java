@@ -55,7 +55,6 @@ public class BubbleSort {
 	}
 }
 
-// This code is contributed
-// by Nikita Tiwari.
+
 
 
