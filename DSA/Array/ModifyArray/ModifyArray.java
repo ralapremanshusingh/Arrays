@@ -20,4 +20,12 @@ public class ModifyArray {
         return arr;
 
     }
+
+    public static void printArray(int[] arr) {
+
+        System.out.println("Your Element is : ");
+        for(int i : arr) {
+            System.out.print(i + " ");
+        }
+    }
 }
