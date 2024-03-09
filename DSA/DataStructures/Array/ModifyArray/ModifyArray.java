@@ -1,4 +1,4 @@
-package Array.ModifyArray;
+package DataStructures.Array.ModifyArray;
 
 import java.util.Scanner;
 

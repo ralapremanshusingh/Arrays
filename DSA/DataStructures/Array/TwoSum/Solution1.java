@@ -1,6 +1,6 @@
 // 1. Two Sum => https://leetcode.com/problems/two-sum/description/
 
-package Array.TwoSum;
+package DataStructures.Array.TwoSum;
 
 class Solution {
     static int arr[] = {1,4,5,6};
