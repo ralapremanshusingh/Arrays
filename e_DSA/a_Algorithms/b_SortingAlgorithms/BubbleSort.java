@@ -1,6 +1,6 @@
 package e_DSA.a_Algorithms.b_SortingAlgorithms;
 
-import Array.ModifyArray.ModifyArray;
+import e_DSA.b_DataStructures.a_Array.a_ModifyArray.*;
 public class BubbleSort {
     
 	public static void main(String[] args) {

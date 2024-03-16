@@ -1,4 +1,4 @@
-package DataStructures.Array.ModifyArray;
+package e_DSA.b_DataStructures.a_Array.a_ModifyArray;
 
 import java.util.Scanner;
 
