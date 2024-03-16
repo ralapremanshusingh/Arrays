@@ -5,7 +5,12 @@ public class Practice1 {
     public static void main(String[] args) {
         
 
-        int[] arr = [1,2,3,4,5];
+        Stringh nu;
+        while(true) {
+            number+=1;
+            System.out.println(number);
+            main(");
+        }
         
     }
 
