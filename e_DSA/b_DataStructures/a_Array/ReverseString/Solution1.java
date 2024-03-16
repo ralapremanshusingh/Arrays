@@ -2,7 +2,7 @@
 *   344. Reverse String => https://leetcode.com/problems/reverse-string/description/ 
 */
 
-package DataStructures.Array.ReverseString;
+package e_DSA.b_DataStructures.a_Array.ReverseString;
 
 public class Solution1 {
     

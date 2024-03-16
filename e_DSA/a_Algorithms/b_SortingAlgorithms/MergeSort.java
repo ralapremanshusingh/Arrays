@@ -1,4 +1,4 @@
-package Algorithms.SortingAlgorithms;
+package e_DSA.a_Algorithms.b_SortingAlgorithms;
 
 
 class MergeSort {

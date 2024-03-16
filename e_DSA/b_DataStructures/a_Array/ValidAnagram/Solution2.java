@@ -1,6 +1,6 @@
 // 242. Valid Anagram => https://leetcode.com/problems/valid-anagram/description/
 
-package DataStructures.Array.ValidAnagram;
+package e_DSA.b_DataStructures.a_Array.ValidAnagram;
 
 import java.util.Arrays;
 

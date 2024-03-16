@@ -1,6 +1,6 @@
 // 15. 3Sum => https://leetcode.com/problems/3sum/description/
 
-package DataStructures.Array.ThreeSum;
+package e_DSA.b_DataStructures.a_Array.ThreeSum;
 import java.util.Arrays;
 
 public class Solution3 {
