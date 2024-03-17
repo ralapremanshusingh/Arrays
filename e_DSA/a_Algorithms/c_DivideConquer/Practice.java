@@ -1,4 +1,4 @@
-package e_DSA.a_Algorithms.c_DivideConquer;
+package E_DSA.A_Algorithms.C_DivideConquer;
 
 public class Practice {
     

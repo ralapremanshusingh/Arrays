@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/reverse-string/description/
 
-package e_DSA.b_DataStructures.a_Array.c_ReverseString;
+package E_DSA.B_DataStructures.A_Array.C_ReverseString;
 
 class Solution {
     public void reverseString(char[] s) {

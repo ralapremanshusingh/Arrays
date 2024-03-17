@@ -1,4 +1,4 @@
-package e_DSA.a_Algorithms.b_SortingAlgorithms;
+package E_DSA.A_Algorithms.B_SortingAlgorithms;
 
 import Array.ModifyArray.ModifyArray;
 
