@@ -1,26 +1,6 @@
-package E_DSA.A_Algorithms.B_SortingAlgorithms;
-
-import E_DSA.b_DataStructures.a_Array.a_ModifyArray.ModifyArray;
-
 public class InsertionSort {
 
-	public static void main(String[] args) {
-
-		System.out.println();
-		int[] element = ModifyArray.inputArray();
-
-		System.out.println();
-		System.out.println("Before Sort : ");
-		ModifyArray.printArray(element);
-
-		element = insertionSort(element);
-
-		System.out.println("\n");
-		ModifyArray.printArray(element);
-		System.out.println();
-	}
-
-	private static int[] insertionSort(int[] element) {
+		private static int[] insertionSort(int[] element) {
 
 		int n = element.length;
 

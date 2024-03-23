@@ -1,7 +1,3 @@
-package Algorithms.SearchingAlgorithms;
-
-import java.util.Scanner;
-import Array.ModifyArray.ModifyArray;
 
 public class LinearSearch {
 
@@ -22,18 +18,5 @@ public class LinearSearch {
         return -1;
     }
 
-    public static void main(String args[]) {
-
-        int[] element = ModifyArray.inputArray();
-
-        int result = linearSearch(element);
-
-        if (result == -1) {
-            System.out.println("Your key is not present.");
-        } else {
-            System.out.println("Your key at index : " + result);
-        }
-
-    }
 
 }

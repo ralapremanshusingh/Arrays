@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/reverse-string/description/
 
-package E_DSA.B_DataStructures.A_Array.C_ReverseString;
-
 class Solution {
     public void reverseString(char[] s) {
 

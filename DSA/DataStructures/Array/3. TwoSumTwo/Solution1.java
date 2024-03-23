@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
 
-package E_DSA.B_DataStructures.D_TwoSumTwo;
-
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int i=0;

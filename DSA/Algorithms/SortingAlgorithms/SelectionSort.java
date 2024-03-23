@@ -1,25 +1,4 @@
-package E_DSA.A_Algorithms.B_SortingAlgorithms;
-
-import Array.ModifyArray.ModifyArray;
-
 public class SelectionSort { 
-
-	public static void main(String[] args) {
-
-		System.out.println();
-		int[] element = ModifyArray.inputArray();
-		
-		System.out.println();
-		System.out.println("Before Sorted");
-		ModifyArray.printArray(element);
-
-		element = selectionSort(element);
-
-		System.out.println("\n");
-		System.out.println("After Sorted : ");
-		ModifyArray.printArray(element);
-		System.out.println("\n");
-	}
 
 	private static int[] selectionSort(int[] element) {
 

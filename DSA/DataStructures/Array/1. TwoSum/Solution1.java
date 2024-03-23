@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/two-sum/description/
 
-package E_DSA.B_DataStructures.A_Array.B_TwoSum;
-
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 

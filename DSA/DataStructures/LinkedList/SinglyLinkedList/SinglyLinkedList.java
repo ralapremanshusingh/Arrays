@@ -1,5 +1,3 @@
-package E_DSA.B_DataStructures.B_LinkedList.A_SinglyLinkedList;
-
 public class A_SinglyLinkedList {
 
     static Node head;

@@ -1,27 +1,6 @@
-package E_DSA.A_Algorithms.B_SortingAlgorithms;
 
-import E_DSA.b_DataStructures.a_Array.a_ModifyArray.*;
 public class BubbleSort {
     
-	public static void main(String[] args) {
-
-
-		System.out.println();
-		int[] element = ModifyArray.inputArray();
-
-		System.out.println();
-		System.out.println("Before Sorted : ");
-		ModifyArray.printArray(element);
-
-		element = bubbleSort(element);
-
-		System.out.println("\n");
-		System.out.println("After Sorted : ");
-		ModifyArray.printArray(element);
-
-
-	}
-
 	private static int[] bubbleSort(int[] element) {
 	
 		int n = element.length;
