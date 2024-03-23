@@ -14,7 +14,9 @@
 
 - [5. 3Sum](https://leetcode.com/problems/3sum/description/)
 
-- [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+- [6. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+
+- [7. Cotains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 
 - [Asymptosis](https://www.bigocheatsheet.com/)
 
