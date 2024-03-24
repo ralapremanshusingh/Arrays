@@ -1,27 +1,37 @@
-
 public class BubbleSort {
-    
-	private static int[] bubbleSort(int[] element) {
-	
-		int n = element.length;
 
-		for(int j =0; j<n-1; j++) {
+	public static void bubbleSort(int[] nums) {
 
-			for(int i = 0; i<n-j-1; i++) {
+		for(int i = 0; i<nums.length; i++) {
 
-				if(element[i] > element[i+1]) {
-					element[i] = element[i] + element[i+1];
-					element[i+1] = element[i] - element[i+1];
-					element[i] = element[i] - element[i+1];
+			boolean swap = false;
+
+			for(int j = 0; j<nums.length-i-1; j++) {
+
+				
+				if(nums[j]>nums[j+1]) {
+					int temp = nums[j];
+					nums[j] = nums[j+1];
+					nums[j+1] = temp;
+					swap = true;
 				}
+
 			}
+			if(!swap) {
+					break;
+				}
+		}
+	}
+
+	public static void main (String args[]) {
+		int []arr = { 3,4,2,5,6,5,44};
+
+		bubbleSort(arr);
+
+		for(int a : arr) {
+			System.out.print(a  + " ");
 		}
 
-		return element;
+		System.out.println();
 	}
-	
 }
-
-
-
-

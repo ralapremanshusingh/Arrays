@@ -1,20 +1,33 @@
 public class InsertionSort {
 
-		private static int[] insertionSort(int[] element) {
+	public static void insertionSort(int[] nums) {
 
-		int n = element.length;
-
-		for(int j = 1; j<n; j++ ) {
+		for(int i = 1; i<nums.length; i++) {
 			
-			int i =j;
 
-			while (i > 0 && element[i - 1] > element[i]) {
-				element[i] = element[i] + element[i - 1];
-				element[i - 1] = element[i] - element[i - 1];
-				element[i] = element[i] - element[i - 1];
-				i--;	
+			for(int j=i; j>0;j--) {
+
+				if(nums[j]<nums[j-1]) {
+					int temp = nums[j];
+					nums[j] = nums[j-1];
+					nums[j-1] = temp;
+				} else {
+					break;
+				}
 			}
 		}
+	}
 
-		return element;
-}}
+
+	public static void main(String args[]) {
+
+		int[] arr = {2,32,4,2,-1};
+
+		insertionSort(arr);
+
+		for(int a : arr) {
+			System.out.print(a + " ");
+		}
+		System.out.println();
+	}
+}
