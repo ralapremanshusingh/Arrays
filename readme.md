@@ -2,7 +2,7 @@
 
 - [SanketSirDSALiveClass](https://github.com/singhsanket143/Data-Structures-Algorithms-Problem-Solving)
 
-- [Asymptosis](https://www.bigocheatsheet.com/)
+- [asymptotic notation](https://www.bigocheatsheet.com/)
 
 - [Java](https://medium.com/javarevisited/visualizing-designing-and-analyzing-the-insertion-sort-algorithm-latest-4bb963fd82f7)
 
@@ -24,4 +24,4 @@
 
 - [7. Cotains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 
-- [8. Merge Sort](https://leetcode.com/problems/merge-sorted-array/description/)
+- [8. Merge Two Array](https://leetcode.com/problems/merge-sorted-array/description/)
