@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* body{
+    background-color: red;
+} */
+
+*{
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0px 2px 10px rgba(red, green, blue, alpha);
+}
