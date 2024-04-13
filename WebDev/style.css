@@ -1,18 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-/* body{
-    background-color: red;
-} */
-
-*{
-  font-family: Montserrat;
+/* Reset default margin and padding */
+* {
   margin: 0;
   padding: 0;
-  outline: 0;
 }
 
-.navbar{
-    position: sticky;
-    top: 0px;
-    width: 100%;
-    box-shadow: 0px 2px 10px rgba(red, green, blue, alpha);
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+#search {
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 10px;
+  width: 200px;
+}
+
+#search-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#featured {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

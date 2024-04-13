@@ -3,56 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .login-container input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .home-button {
+            margin-top: 20px;
+        }
+
+        .home-button a {
+            text-decoration: none;
+            color: #007bff;
+            padding: 10px 20px;
+            border: 1px solid #007bff;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .home-button a:hover {
+            background-color: #007bff;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-   <header class="navbar">
-    <nav>
-        <ul class="navbar-nab">
-            <li class="nav-item">
-                <a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">References</a></li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Docs</a></li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Blogs</a></li>
-        </ul>
-    </nav>
-   </header>
-
-   <main class="content">
-    <section>
-        <div class="lang-image float-right">
-            <img src="./html.png" alt="html image">
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="process_login.php" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <br>
+            <input type="password" name="password" placeholder="Password" required>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+        <div class="home-button">
+            <a href="home.html">Home</a>
         </div>
-        <article>
-            <h1>HTML</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A delectus asperiores animi pariatur officia. Exercitationem a reprehenderit voluptatem placeat adipisci odit esse ea consequuntur illo? Ea commodi sint corporis inventore quis atque quibusdam dolor ut! Officia, repellat? Culpa quo voluptates facilis odio natus placeat sapiente praesentium quis. Rem quod at et aperiam. Aut magnam quasi voluptatem nemo saepe earum vero labore eveniet animi obcaecati dolorem eum deserunt dignissimos facere sed molestias, iusto ratione? Esse quaerat expedita et qui impedit ab a eaque, in provident, consequatur illum tenetur nisi explicabo repellat omnis ratione eveniet temporibus deserunt aperiam rem iure repellendus perferendis.</p>
-        </article>
-    </section>
-    <section>
-        <div class="lang-image float-right">
-            <img src="./css.png" alt="css image">
-        </div>
-        <article>
-            <h1>CSS</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, aliquid iusto. Voluptates omnis eum perspiciatis quae laboriosam autem totam quos officiis? Quas reprehenderit voluptatum commodi maxime, culpa dignissimos eaque, ab molestiae sint blanditiis minus. Officia deleniti veritatis nobis aspernatur consequuntur corrupti minus, numquam praesentium dignissimos unde vero soluta quaerat sed non velit earum error eos debitis. Odit sed in facilis neque corrupti asperiores quo nam veritatis distinctio dolorem velit ea soluta laboriosam inventore nulla fugit quas, minus eos, iste totam.</p>
-        </article>
-    </section>
-    <section>
-        <div class="lang-image float-right">
-            <img src="./js.png"" alt="JavaScript image">
-        </div>
-        <article>
-            <h1>JavaScript</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sint, aut amet ut animi praesentium rerum aliquam ullam hic pariatur consectetur quidem nihil numquam nesciunt doloremque ab modi minus officia omnis! Nemo illum blanditiis harum dolore doloremque, deserunt totam quis exercitationem dignissimos minima labore quas mollitia, distinctio eveniet tenetur quia quae natus tempore fugiat possimus recusandae deleniti. Soluta iure eveniet maxime iste. Beatae, magnam voluptas! Asperiores labore at ratione, architecto aperiam repudiandae deleniti corporis ipsam soluta sit ipsa, ab iste voluptatibus modi voluptas odio quaerat laboriosam. Repudiandae aut neque, veritatis animi eos commodi ducimus tempora, non dicta suscipit incidunt beatae perspiciatis culpa quam ullam omnis distinctio corrupti, numquam nisi adipisci qui. Quae, nisi quidem. Deleniti quisquam amet maxime. Saepe, odit!</p>
-        </article>
-    </section>
-    
-   </main>
-
-   <div class="bot-icon"><img src="./chat.png" alt="Chat Box"></div>
+    </div>
 </body>
-</html> 
+</html>

@@ -25,3 +25,5 @@
 - [7. Cotains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)
 
 - [8. Merge Two Array](https://leetcode.com/problems/merge-sorted-array/description/)
+
+- [9. Peak Element](https://leetcode.com/problems/find-peak-element/description/)
